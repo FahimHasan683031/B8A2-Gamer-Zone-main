@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff9fc;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+/* header css */
+
+nav{
+    background-color: #fff !important;
+    box-shadow: 8px 5px 20px rgba(167, 167, 167,0.2);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-logo h3 {
+    color: #0B0223;
+    font-size: 2.6rem;
+}
+
+.nav-logo h3 span {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-manue {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-manue li{
+    list-style: none;
+}
+.nav-manue li a{
+    color: #3C354F;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav-manue > li a:hover{
+    color: #FF42A5;
+}
+
+.nav-manue ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    padding: 13px 17px;
+    border-radius: 4px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.nav-manue ul li{
+    font-size: 1.2rem;
+}
+.youtube i{
+    color: #F61C0D;
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width:780px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+    .nav-manue{
+        margin-top: 10px;
+        gap: 15px;
+    }
+    .nav-manue ul{
+        padding: 10px 16px;
+    }
+    .nav-manue li a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .nav-manue{
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+}
