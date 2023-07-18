@@ -168,7 +168,8 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.banner2-right p{
+
+.banner2-right p {
     font-size: 18px;
     color: #534C64;
     font-weight: 400;
@@ -176,18 +177,69 @@ nav {
     line-height: 27px;
     margin: 20px 0;
 }
-.banner2-right button{
+
+.banner2-right button {
     margin-right: 0;
     margin-bottom: 15px;
 }
-.banner2-right h5{
+
+.banner2-right h5 {
     font-size: 30px;
     font-weight: 700;
     color: #534C64;
 }
-.banner2-right h5 span{
+
+.banner2-right h5 span {
     font-weight: 500;
 }
-.banner-2eft img{
+
+.banner-2eft img {
     width: 100%;
+}
+
+/* online game section css */
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.online-game {
+    margin: 100px auto;
+    text-align: center;
+}
+.online-game p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    margin-bottom: 40px;
+}
+
+.gam-cart {
+    text-align: left;
+}
+
+.online-game h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 25px;
+}
+
+.online-game h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gam-cart h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    line-height: 30px;
+}
+.games-2, .games-1 {
+    display: flex;
+    gap: 20px;
 }

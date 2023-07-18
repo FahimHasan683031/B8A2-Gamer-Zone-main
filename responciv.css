@@ -5,110 +5,173 @@
         height: auto;
         padding: 20px 0;
     }
-    .nav-manue{
+
+    .nav-manue {
         margin-top: 10px;
         gap: 15px;
     }
-    .nav-manue ul{
+
+    .nav-manue ul {
         padding: 10px 16px;
     }
-    .nav-manue li a{
+
+    .nav-manue li a {
         font-size: 1.1rem;
     }
+
     /* banner tablet responsive */
     .banner {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .banner-left{
+
+    .banner-left {
         margin-top: 70px;
     }
+
     /* banner-2 tablet responsive */
     .banner-2 {
         flex-direction: column-reverse;
         align-items: center;
         margin-top: 100px;
     }
+
     .banner2-right {
         text-align: center;
     }
+
+    /* online games section responsive */
+    .game-container {
+        flex-direction: column;
+    }
+    .online-game h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .online-game p{
+        font-size: 14px;
+    }
+    .gam-cart h3{
+        font-size: 16px;
+
+    }
+    .games-1{
+        margin-bottom: 30px;
+    }
     
+
 }
 
+
+
 @media screen and (max-width:425px) {
-    .nav-manue{
+    .nav-manue {
         flex-direction: column;
         align-items: center;
         gap: 35px;
-        margin-bottom: 40px ;
+        margin-bottom: 40px;
     }
-    .nav-logo{
+
+    .nav-logo {
         margin-top: 60px;
     }
+
     /* banner mobile responsive */
     .banner-left h1 {
         font-size: 3.5rem;
         text-transform: uppercase;
         font-weight: 700;
     }
-    .banner-left ul li img{
+
+    .banner-left ul li img {
         width: 6%;
         margin-right: 5px;
     }
-    .banner-left ul li{
+
+    .banner-left ul li {
         font-size: 15px;
         font-weight: 400;
         margin: 25px 0;
     }
-     .comon-button{
+
+    .comon-button {
         padding: 12px 24px;
         font-size: 14px;
 
     }
+
     .banner-left h3 {
         font-size: 2rem;
         font-weight: 600;
     }
-    .container{
+
+    .container {
         padding: 0 50px;
     }
+
     .banner {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+
     }
-    .banner-right{
+
+    .banner-right {
         padding-top: 10px;
     }
+
     /* banner-2 mobile responsive */
-    
+
     .banner2-right h1 {
         font-size: 1.7rem;
         font-weight: 600;
     }
-    .banner2-right p{
+
+    .banner2-right p {
         font-size: 12px;
         color: #534C64;
         font-weight: 400;
         width: auto;
     }
-    .banner2-right button{
+
+    .banner2-right button {
         margin-right: 0;
         margin-bottom: 15px;
     }
-    .banner2-right h5{
+
+    .banner2-right h5 {
         font-size: 20px;
         font-weight: 600;
         color: #534C64;
     }
-    .banner2-right h5 span{
+
+    .banner2-right h5 span {
         font-weight: 400;
     }
-    .banner-2eft img{
+
+    .banner-2eft img {
         width: 100%;
     }
-    .container{
+
+    .container {
         padding: 0 50px;
+    }
+
+    /* online game section mobile responsive */
+    .games-2, .games-1 {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .online-game h1 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .online-game p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .gam-cart h3{
+        font-size: 14px;
+
     }
 }
