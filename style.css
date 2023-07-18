@@ -20,10 +20,11 @@ body {
 
 /* header css */
 
-nav{
+nav {
     background-color: #fff !important;
-    box-shadow: 8px 5px 20px rgba(167, 167, 167,0.2);
+    box-shadow: 8px 5px 20px rgba(167, 167, 167, 0.2);
 }
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -54,16 +55,19 @@ nav{
     gap: 25px;
     align-items: center;
 }
-.nav-manue li{
+
+.nav-manue li {
     list-style: none;
 }
-.nav-manue li a{
+
+.nav-manue li a {
     color: #3C354F;
     font-size: 1.3rem;
     text-decoration: none;
     transition: .5s;
 }
-.nav-manue > li a:hover{
+
+.nav-manue>li a:hover {
     color: #FF42A5;
 }
 
@@ -76,9 +80,64 @@ nav{
     border-radius: 4px;
     background: rgba(11, 2, 35, 0.10);
 }
-.nav-manue ul li{
+
+.nav-manue ul li {
     font-size: 1.2rem;
 }
-.youtube i{
+
+.youtube i {
     color: #F61C0D;
+}
+
+/* banner css */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left h3 {
+    color: #0B0223;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-left h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-left ul{
+    list-style: none;
+}
+.banner-left ul li{
+    font-size: 1.4rem;
+    color: #534C64;
+    font-weight: 500;
+    margin: 20px 0;
+}
+ .comon-button{
+    padding: 18px 40px;
+    border-radius: 48px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.button-1{
+    background-color: #ff42a5;
+    margin-right: 20px;
+}
+.button-2{
+    background-color: #4ec5f7;
+}
+.banner-right img{
+    width: 100%;
 }
