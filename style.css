@@ -112,16 +112,19 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.banner-left ul{
+
+.banner-left ul {
     list-style: none;
 }
-.banner-left ul li{
+
+.banner-left ul li {
     font-size: 1.4rem;
     color: #534C64;
     font-weight: 500;
     margin: 20px 0;
 }
- .comon-button{
+
+.comon-button {
     padding: 18px 40px;
     border-radius: 48px;
     border: none;
@@ -131,13 +134,60 @@ nav {
     font-weight: 500;
     letter-spacing: 2px;
 }
-.button-1{
+
+.button-1 {
     background-color: #ff42a5;
     margin-right: 20px;
 }
-.button-2{
+
+.button-2 {
     background-color: #4ec5f7;
 }
-.banner-right img{
+
+.banner-right img {
+    width: 100%;
+}
+
+/* banner-2 css */
+.banner-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner2-right {
+    text-align: right;
+}
+
+.banner2-right h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner2-right p{
+    font-size: 18px;
+    color: #534C64;
+    font-weight: 400;
+    width: 500px;
+    line-height: 27px;
+    margin: 20px 0;
+}
+.banner2-right button{
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.banner2-right h5{
+    font-size: 30px;
+    font-weight: 700;
+    color: #534C64;
+}
+.banner2-right h5 span{
+    font-weight: 500;
+}
+.banner-2eft img{
     width: 100%;
 }

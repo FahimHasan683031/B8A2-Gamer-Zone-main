@@ -23,6 +23,16 @@
     .banner-left{
         margin-top: 70px;
     }
+    /* banner-2 tablet responsive */
+    .banner-2 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .banner2-right {
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width:425px) {
@@ -60,7 +70,7 @@
         font-weight: 600;
     }
     .container{
-        padding: 0 70px;
+        padding: 0 50px;
     }
     .banner {
         display: flex;
@@ -70,5 +80,35 @@
     }
     .banner-right{
         padding-top: 10px;
+    }
+    /* banner-2 mobile responsive */
+    
+    .banner2-right h1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .banner2-right p{
+        font-size: 12px;
+        color: #534C64;
+        font-weight: 400;
+        width: auto;
+    }
+    .banner2-right button{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .banner2-right h5{
+        font-size: 20px;
+        font-weight: 600;
+        color: #534C64;
+    }
+    .banner2-right h5 span{
+        font-weight: 400;
+    }
+    .banner-2eft img{
+        width: 100%;
+    }
+    .container{
+        padding: 0 50px;
     }
 }
