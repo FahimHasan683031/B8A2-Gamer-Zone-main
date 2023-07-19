@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -133,6 +134,11 @@ nav {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
+    cursor: pointer;
+}
+.comon-button a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .button-1 {
@@ -323,4 +329,69 @@ nav {
     right: -70px;
     bottom: -85px;
     
+}
+
+/* career section css */
+.career-section{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.career-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-content{
+    width: 50%;
+}
+.career-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60xp;
+    color: #fff;
+}
+.career-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    margin: 25px 0;
+}
+.career-content button{
+    margin-top: 30px;
+}
+.career-content button a{
+    color: #ff42a5;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-left{
+    text-align: left;
+}
+.inner-left h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+}
+.inner-right{
+    text-align: right;
+}
+.inner-right h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+}
+.career-img{
+    width: 50%;
+}
+.career-img img{
+    width: 840px;
+    height: auto;
 }
