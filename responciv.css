@@ -43,6 +43,7 @@
     /* online games section responsive */
     .game-container {
         flex-direction: column;
+        justify-content: center;
     }
     .online-game h1 {
         font-size: 35px;
@@ -244,10 +245,6 @@
         font-weight: 600;
     }
 
-    /* .container {
-        padding: 0 50px;
-    } */
-
     .banner {
         display: flex;
         justify-content: space-between;
@@ -292,13 +289,11 @@
         width: 100%;
     }
 
-    /* .container {
-        padding: 0 50px;
-    } */
 
     /* online game section mobile responsive */
     .games-2, .games-1 {
         flex-direction: column;
+        justify-content: center;
         gap: 40px;
     }
     .online-game h1 {
