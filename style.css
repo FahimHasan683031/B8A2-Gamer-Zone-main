@@ -256,6 +256,7 @@ nav {
 }
 .hover-overlay{
    position: relative;
+   overflow: hidden;
 }
 .overlay{
     position: absolute;
@@ -268,6 +269,7 @@ nav {
     opacity: 0;
     transition: .5s;
     cursor: pointer;
+    overflow: hidden;
 }
 .overlay img{
     position: absolute;
