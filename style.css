@@ -395,3 +395,37 @@ nav {
     width: 840px;
     height: auto;
 }
+
+/* feature btn section css */
+.feature-btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+    
+}
+.feature-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    padding: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.feature-btn:hover{
+    border-color: #ff42a5;
+    color: #ff42a5;
+}
+.feature-btn img{
+    width: 60px;
+    height: 60px;
+}
+.feature-btn p{
+    font-size: 20px;
+    font-weight: 600;
+    color:#0B0223 ;
+}
