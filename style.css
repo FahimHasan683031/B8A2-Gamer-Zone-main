@@ -476,10 +476,7 @@ nav {
     transition: .5s;
     cursor: pointer;
 }
-.feature-btn:hover{
-    border-color: #ff42a5;
-    color: #ff42a5;
-}
+
 .feature-btn img{
     width: 60px;
     height: 60px;
@@ -488,7 +485,15 @@ nav {
     font-size: 20px;
     font-weight: 600;
     color:#0B0223 ;
+    transition: .5s;
 }
+.feature-btn:hover{
+    border-color: #ff42a5;
+}
+.feature-btn:hover p{
+    color: #ea4abc;
+}
+
 
 /* footer css */
 footer{
