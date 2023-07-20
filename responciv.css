@@ -4,7 +4,9 @@
         box-sizing: border-box;
         overflow-x: hidden;
     }
-    
+    .nice-game-section{
+        padding: 0 20px;
+    }
     .nav-container {
         flex-direction: column;
         align-items: center;
@@ -48,8 +50,18 @@
 
     /* online games section responsive */
     .game-container {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
         justify-content: center;
+        justify-items: center;
+        overflow-x: hidden;
+        
+    }
+    .item1{
+        width: 100%;
+        margin-right: -55px;
     }
     .online-game h1 {
         font-size: 35px;
@@ -61,9 +73,6 @@
     .gam-cart h3{
         font-size: 16px;
 
-    }
-    .games-1{
-        margin-bottom: 30px;
     }
     /* play section responsive */
     .play-section-1{
@@ -206,6 +215,9 @@
     .copyright-text{
         font-size: 15px;
     }
+    .image-grid{
+        gap: 5px;
+       }
 }
 
 
@@ -299,17 +311,31 @@
     .banner-2eft img {
         width: 100%;
     }
+    .banner2-right{
+        padding: 0 25px;
+    }
 
 
     /* online game section mobile responsive */
-    .games-2, .games-1 {
-        flex-direction: column;
+    .game-container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 5px;
         justify-content: center;
-        gap: 40px;
+        justify-items: center;
+        overflow-x: hidden;
+        
+    }
+    .item1{
+        width: 81%;
+        margin-right: 0;
     }
     .online-game h1 {
         font-size: 22px;
         font-weight: 600;
+    }
+    .play-section-img-2{
+        padding: 0 25px;
     }
     .online-game p{
         font-size: 11px;
@@ -381,6 +407,9 @@
         width: 100%;
         padding: 100px 0;
     }
+    .career-content{
+        padding: 50px 20px;
+    }
     .career-content h1{
         font-size: 30px;
     }
@@ -450,7 +479,7 @@
         column-gap:5px;
     }
     .social-icon img{
-        max-width: 25%;
+        max-width: 22%;
     }
     .footer-manue-2 {
         display:grid;
@@ -468,5 +497,16 @@
         width: 300px;
         margin: 0 auto;
     }
+
+    .nice-game-section h1{
+        font-size: 28px;
+    }
+   .nice-game-section p{
+        font-size: 14px;
+        font-weight: 400;
+   }
+   .image-grid{
+    gap: 3px;
+   }
    
 }
